@@ -1,0 +1,35 @@
+body {
+    padding-top: 90px;
+}
+
+
+html {
+    scroll-padding-top: 90px;
+}
+
+
+.btn-primary {
+    background-color: red;
+    border-color: red;
+}
+
+.btn-primary:hover {
+    background-color: darkred;
+    border-color: darkred;
+}
+
+
+.carousel-item img {
+    width: 50%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    background-color: #222;
+}
+
+
+.carousel-caption {
+    background-color:black;
+    padding: 10px;
+    border-radius: 8px;
+}
